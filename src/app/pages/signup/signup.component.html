@@ -36,49 +36,49 @@
             <!--First name field-->
             <mat-form-field appearance="outline">
                 <mat-label>First Name</mat-label>
-                <input [(ngModel)]="user.fname" name="fname" matNativeControl required matInput placeholder="Placeholder">
+                <input [(ngModel)]="user.fname" name="fname" matNativeControl required matInput placeholder="Enter First Name...">
             </mat-form-field>
             &nbsp;
 
             <!--Last name field-->
             <mat-form-field appearance="outline">
                 <mat-label>Last Name</mat-label>
-                <input [(ngModel)]="user.lname" name="lname" matNativeControl required matInput placeholder="Placeholder">
+                <input [(ngModel)]="user.lname" name="lname" matNativeControl required matInput placeholder="Enter Last Name...">
             </mat-form-field>
             <br>
 
             <!--Country field-->
             <mat-form-field appearance="outline">
                 <mat-label>Country</mat-label>
-                <input [(ngModel)]="user.country" name="country" matNativeControl required matInput placeholder="Placeholder">
+                <input [(ngModel)]="user.country" name="country" matNativeControl required matInput placeholder="Enter Country">
             </mat-form-field>
             &nbsp;
 
             <!--DOB-->
             <mat-form-field appearance="outline">
                 <mat-label>Date Of Birth</mat-label>
-                <input type="date" [(ngModel)]="user.dob" name="dob" matNativeControl required matInput placeholder="Placeholder">
+                <input type="date" [(ngModel)]="user.dob" name="dob" matNativeControl required matInput >
             </mat-form-field>
             <br>
 
             <!--Contact field-->
             <mat-form-field class="full-width" appearance="outline">
                 <mat-label>Contact No.</mat-label>
-                <input type="tel" [(ngModel)]="user.contact" name="contact" maxlength="10" matNativeControl required matInput placeholder="Contact No..." >
+                <input type="tel" [(ngModel)]="user.contact" name="contact" maxlength="10" matNativeControl required matInput placeholder="Enter Contact No..." >
             </mat-form-field>
             <br>
 
             <!--pass-->
             <mat-form-field appearance="outline">
                 <mat-label>Password</mat-label>
-                <input [(ngModel)]="user.password" name="password" type="password" matNativeControl required matInput placeholder="Placeholder">
+                <input [(ngModel)]="user.password" name="password" type="password" matNativeControl required matInput placeholder="Password...">
             </mat-form-field>
             &nbsp;
 
             <!--Confirm pass-->
             <mat-form-field appearance="outline">
                 <mat-label>Confirm Password</mat-label>
-                <input type="password" [(ngModel)]="user.confirmPassword" name="confirmPassword" matNativeControl required matInput placeholder="Placeholder">
+                <input type="password" [(ngModel)]="user.confirmPassword" name="confirmPassword" matNativeControl required matInput placeholder="Confirm Password...">
             </mat-form-field>
             <br>
 
