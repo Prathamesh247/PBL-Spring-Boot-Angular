@@ -1,0 +1,15 @@
+.example-spacer1{
+    display: inline-block;
+    margin-left: 50px;
+    color: white;
+}
+
+.example-spacer2{
+    display: inline-block;
+    margin-left: 150px;
+    color: white;    
+}
+
+.navbar-gen{
+    background-color: #222242;
+}

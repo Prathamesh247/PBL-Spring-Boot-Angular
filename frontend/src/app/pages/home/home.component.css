@@ -1,0 +1,38 @@
+.bg-img{
+    background-image: url("../../../assets/flight1.jpg");
+    height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  }
+
+  .box{
+    height: 482px;
+    width: 490px;
+    left: 505px;
+    top: 200px;
+    opacity: 0.80;
+  }
+
+  h1{      
+    /*font-family: serif;*/
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 64px;      
+  }
+
+  h2{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33px;
+  }
+
+  .btn-prop{
+    background-color: #222242;
+    color: #FFFFFF;
+    top: 5px;
+}
