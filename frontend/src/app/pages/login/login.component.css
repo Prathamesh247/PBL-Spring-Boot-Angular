@@ -1,0 +1,54 @@
+
+  .main-wrapper{
+    
+    position: absolute;
+    width: 530px;
+    height: 482px;
+    left: 505px;
+    top: 200px;
+    background: #FFFFFF;
+      
+  }
+
+  .full-width{
+    width:100%;
+  }
+
+  .btn-prop{
+      background-color: #222242;
+      color: #FFFFFF;
+      top: 5px;
+  }
+
+  .input.ng-invalid{
+    border-left: 5px solid red;
+  }
+
+  .input.ng-valid{
+    border-left: 5px solid green;
+  }
+
+  .error{
+    color: red;
+    top: -5px;
+  }
+
+  .bg-img{
+    background-image: url("../../../assets/flight1.jpg");
+    height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.85;
+  }
+
+  .card{
+      height: 482px;
+      width: 490px;
+
+  }
+
+  .box{
+      height:400px;
+  }
